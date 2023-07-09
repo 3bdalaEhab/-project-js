@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+}
+body {
+
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(7, 128, 150));
+    height: 100vh;
+}
+div h1 {
+    font-size: 6rem;
+    font-weight: 900;
+}
+.par-1 {
+    font-size: 3rem;
+}
+button {
+    padding: 2em 4em;
+    font-size: 1rem;
+    background-color: rgb(255, 153, 0);
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+    margin: 30px 0;
+    cursor: pointer;
+    user-select: none;
+}
+button:hover {
+    background-color: rgb(129, 206, 28);
+    
+}
+#output {
+font-size: 2.5rem;
+font-weight: 600;
+}
+#author {
+color: rgb(85, 84, 84);
+font-size: 2rem;
+border-bottom: 2px black solid;
+width: fit-content;
+margin: auto;
+}
